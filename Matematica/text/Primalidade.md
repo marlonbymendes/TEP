@@ -570,6 +570,7 @@ long long number_of_divisors(int n)
             int j = n / i;
 
             res += (i == j ? i : i + j);
+        }
     }
 
     return res;
